@@ -1,0 +1,34 @@
+{
+  "version": "5",
+  "dialect": "pg",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1706974169098,
+      "tag": "0000_bent_silver_samurai",
+      "breakpoints": false
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1706974773747,
+      "tag": "0001_flippant_caretaker",
+      "breakpoints": false
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1706975029316,
+      "tag": "0002_ancient_bug",
+      "breakpoints": false
+    },
+    {
+      "idx": 3,
+      "version": "5",
+      "when": 1706975622347,
+      "tag": "0003_salty_vivisector",
+      "breakpoints": false
+    }
+  ]
+}
