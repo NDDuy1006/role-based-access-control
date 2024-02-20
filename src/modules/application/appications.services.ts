@@ -9,7 +9,7 @@ export async function createApplication(data: CreateApplicationBody) {
   return result[0]
 }
 
-export async function getApplication() {
+export async function getApplications() {
   const result = await db
     .select({
       id: applications.id,

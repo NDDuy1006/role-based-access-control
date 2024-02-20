@@ -6,4 +6,20 @@ export const ALL_PERMISSION = [
   //posts
   "posts: write",
   "posts: read",
+] as const
+
+export const PERMISSIONS = ALL_PERMISSION.reduce((acc, permission) => {
+  acc[permission] = permission
+
+  return acc
+}, {} as Record<(typeof ALL_PERMISSION)[number], (typeof ALL_PERMISSION)[number]>)
+
+export const USER_ROLE_PERISSION = [
+  PERMISSIONS["posts: write"],
+  PERMISSIONS["posts: read"]
 ]
+
+export const SYSTEM_ROLE = {
+  SUPER_ADMIN: "SUPER_ADMIN",
+  APPLICATION_USER: "APPLICATION_USER"
+}
